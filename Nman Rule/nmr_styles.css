@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+	Website Assignment
+	
+    Author: Martha Morales-Dixon
+    Date:    03/03/2019
+    
+	Filename: nmr_styles.css
+	
+	This file contains the base styles used by all pages in the nMane Rule website
+
+*/
+
+/* Main Styles */
+
+html {
+	background-image: url(bg_guitars.png);
+}
+
+body {
+	color: rgb(0, 0, 0);
+	background-color: rgb(211,211,211);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+nav {
+	line-height: 2em;
+}	
+
+article nav	li {
+	color: blue;
+	font-size: 1.0em;
+	}
+	
+
+
+/* Heading Syles */
+
+h1 {
+	color: black;
+	background-color: 	rgb(211,211,211);
+	font-family: Verdana, Geneva, sans-serif;
+	font: 1.2em;
+}
+
+
+
+
+	

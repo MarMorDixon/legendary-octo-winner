@@ -1,0 +1,59 @@
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+	Website Assignment
+	
+    Author: Martha Morales-Dixon
+    Date:    03/03/2019
+	
+	Filename: nmr_layout.css
+
+	This file contains the layout styles used in the nMan Rule website
+
+*/
+
+/*Structural Styles*/
+html {
+	height: 100%;
+	margin: 0; padding: 0; border: 0;
+	background-color: white;
+}
+body {
+	margin: 0% auto auto auto;
+	width: 100%;
+	min-width: 320px;
+	background-color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+
+}
+body article h1 {
+	font-size: 2.0em;
+}
+
+header img {
+	float: none;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+}
+
+body header nav {
+	display: block;
+	width: 100%;
+	background-color: white;
+	height: 30px;
+}
+img {
+	display: block;
+	float: left;
+	}
+	
+footer {
+	text-align: center;
+	font-size: 1.0em;
+	margin-top: 4%;
+	border-top: 3px outset #cf7b79;
+	font-family: Verdana, Geneva, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}

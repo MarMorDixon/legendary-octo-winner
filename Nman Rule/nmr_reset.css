@@ -1,0 +1,68 @@
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+	Website Assignment
+	
+    Author: Martha Morales-Dixon
+    Date:    03/03/2019
+    
+	Filename: nmr_reset.css
+	
+   This file contains the base styles used by all pages in the nMane Rule website
+
+*/
+
+ address, article, aside, blockquote, body, footer, header, main, nav, section, h1, header, 
+html, img, li {
+	background: transparent;
+	font-size: 100%;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+html {
+	height: 100%;
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	margin: auto;
+	margin: auto;
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+figure {
+	margin: 0;
+}
+
+/* 	Hypertext links */
+
+nav a {
+	color: black;
+	text-decoration: underline;
+}
+nave a:visited {
+	color: red;
+}
+nav a:hover {
+	color: green;
+}
+nav a:focus {
+	color: Red;
+	outline: solid;
+}
+
+nav a:active {
+	outline: none;
+}
+
+
